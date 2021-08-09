@@ -1,7 +1,7 @@
 import csv
 
 with open('G:/New folder (4)/csv1.csv','r') as csvinput: 
-    with open('G:/New folder (4)/tsv1.txt', 'w') as tsvoutput:
+    with open('G:/New folder (4)/tsv1.tsv', 'w') as tsvoutput:
         csvinput = csv.reader(csvinput)
         tsvoutput = csv.writer(tsvoutput, delimiter='\t')
 
